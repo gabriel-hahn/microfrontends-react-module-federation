@@ -1,4 +1,4 @@
-# Microfrontends with React - Example
+# Microfrontends with React
 
 ## Authors
 
