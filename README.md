@@ -1,4 +1,4 @@
-# Microfrontends with React
+# Microfrontends with React - Module Federation
 
 ## Authors
 
