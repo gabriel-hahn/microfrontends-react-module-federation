@@ -1,0 +1,21 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "Gabriel Hahn Schaeffer <gabriel_hahn@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "html-webpack-plugin": "^5.1.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "faker": "^5.1.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
