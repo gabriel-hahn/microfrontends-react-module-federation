@@ -144,7 +144,6 @@ export default function Pricing() {
 
   return (
     <React.Fragment>
-      {/* Hero unit */}
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography
           component="h1"
@@ -166,7 +165,6 @@ export default function Pricing() {
           with little customization.
         </Typography>
       </Container>
-      {/* End hero unit */}
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
@@ -224,7 +222,7 @@ export default function Pricing() {
           ))}
         </Grid>
       </Container>
-      {/* Footer */}
+
       <Container maxWidth="md" component="footer" className={classes.footer}>
         <Grid container spacing={4} justify="space-evenly">
           {footers.map((footer) => (
@@ -248,7 +246,6 @@ export default function Pricing() {
           <Copyright />
         </Box>
       </Container>
-      {/* End footer */}
     </React.Fragment>
   );
 }
