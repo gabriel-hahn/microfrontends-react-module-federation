@@ -67,7 +67,7 @@ export default function Album() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
+    <>
       <main>
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
@@ -158,6 +158,6 @@ export default function Album() {
         </Typography>
         <Copyright />
       </footer>
-    </React.Fragment>
+    </>
   );
 }
