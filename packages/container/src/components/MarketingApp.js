@@ -7,7 +7,7 @@ const MarketingApp = () => {
   useEffect(() => {
     mount(ref.current, {
       onNavigate: () => {
-        console.log('The container noticed navigation in Marketing!');
+        console.log('The container noticed navigation in Marketing');
       },
     });
   }, []);
