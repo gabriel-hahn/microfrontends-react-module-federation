@@ -102,7 +102,7 @@ const tiers = [
     description: [
       '50 users included',
       '30 GB of storage',
-      'Help center access',
+      'Help center',
       'Phone & email support',
     ],
     buttonText: 'Contact us',
