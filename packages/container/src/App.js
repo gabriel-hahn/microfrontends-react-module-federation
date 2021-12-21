@@ -22,8 +22,8 @@ const App = () => {
         <Header />
         <Suspense fallback={<Progress />}>
           <Switch>
-            <Route path="/" component={AuthApp} />
-            <Route path="/auth" component={MarketingApp} />
+            <Route path="/" component={MarketingApp} />
+            <Route path="/auth" component={AuthApp} />
             <Route />
           </Switch>
         </Suspense>
