@@ -2,7 +2,7 @@
 
 [![deploy-container](https://github.com/gabriel-hahn/microfrontends-react-module-federation/actions/workflows/container.yml/badge.svg)](https://github.com/gabriel-hahn/microfrontends-react-module-federation/actions/workflows/container.yml)
 
-A simple project to show the implementation of Module Federation and navigation callbacks between 4 projects (Container, Auth, Dashboard and Marketing).
+A simple project to show the implementation of Module Federation and navigation callbacks between 4 projects (Container, Auth, Dashboard and Marketing) & AWS and Github Actions integration.
 
 ## Authors
 
