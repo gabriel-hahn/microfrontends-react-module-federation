@@ -326,7 +326,7 @@ export default {
             data: [28, 48, 40, 19, 86, 27, 90],
             fill: false,
             backgroundColor: '#00bb7e',
-            borderColor: '#00bb7e',
+            borderColor: '#00bb7f',
           },
         ],
       },
