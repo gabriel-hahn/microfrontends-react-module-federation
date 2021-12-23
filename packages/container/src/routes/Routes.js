@@ -23,13 +23,13 @@ const Routes = () => {
       <Header isSignedIn={isSignedIn} onSignOut={() => setIsSignedIn(false)} />
       <Suspense fallback={<Progress />}>
         <Switch>
-          <Route exact path="/" component={MarketingApp} />
           <Route path="/auth">
             <AuthApp onSignIn={() => setIsSignedIn(true)} />
           </Route>
           <Route path="/dashboard">
             {!isSignedIn ? <Redirect to="/" /> : <DashboardApp />}
           </Route>
+          <Route path="/" component={MarketingApp} />
         </Switch>
       </Suspense>
     </>
